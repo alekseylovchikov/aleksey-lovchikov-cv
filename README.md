@@ -1,6 +1,46 @@
-# React + TypeScript + Vite
+# My CV
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CV проект на React + TypeScript + Vite с использованием RetroUI компонентов.
+
+## Разработка
+
+```bash
+npm install
+npm run dev
+```
+
+## Сборка
+
+```bash
+npm run build
+```
+
+## GitHub Pages
+
+Проект автоматически собирается и публикуется на GitHub Pages при пуше в ветку `main` или `master`.
+
+### Настройка GitHub Pages
+
+1. Перейдите в Settings → Pages вашего репозитория
+2. В разделе "Source" выберите "GitHub Actions"
+3. Workflow автоматически определит правильный base path:
+   - Если репозиторий называется `username.github.io`, base path будет `/`
+   - Иначе base path будет `/repository-name/`
+
+### Ручной запуск деплоя
+
+Вы можете вручную запустить деплой через Actions → Build and Deploy to GitHub Pages → Run workflow.
+
+---
+
+## Технологии
+
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- RetroUI (NeoBrutalism UI компоненты)
+- Feature Sliced Design архитектура
 
 Currently, two official plugins are available:
 
