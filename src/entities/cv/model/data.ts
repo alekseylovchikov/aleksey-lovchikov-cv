@@ -1,0 +1,133 @@
+import { type CVData } from "./types";
+
+export const cvData: CVData = {
+  name: "ALEKSEY LOVCHIKOV",
+  title: "Senior Full-Stack Developer",
+  contacts: {
+    email: "aleksey.lovchikov@gmail.com",
+    github: "github.com/alekseylovchikov",
+    telegram: "@jwebbb",
+  },
+  about:
+    "Passionate Full-Stack Developer with 8+ years of experience building scalable web applications. I take full responsibility for tasks and see them through to completion, even when facing new challenges or complex problems. I'm not afraid of difficulties and always conduct thorough research to ensure quality results. My expertise spans both frontend and backend development, complemented by knowledge in DevOps, databases, and system architecture, allowing me to understand and support the entire development lifecycle.",
+  skills: [
+    {
+      title: "Frontend",
+      items: [
+        "ReactJS",
+        "Redux",
+        "VueJS",
+        "AngularJS",
+        "NextJS",
+        "TypeScript",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "SCSS",
+        "React Native",
+      ],
+    },
+    {
+      title: "Backend",
+      items: [
+        "PHP",
+        "Laravel",
+        "NestJS",
+        "ExpressJS",
+        "Node.js",
+        "RESTful APIs",
+        "GraphQL",
+      ],
+    },
+    {
+      title: "Databases",
+      items: ["MySQL", "PostgreSQL", "MongoDB"],
+    },
+    {
+      title: "Tools & DevOps",
+      items: [
+        "Git",
+        "Docker",
+        "Webpack",
+        "Storybook",
+        "Jest",
+        "React Testing Library",
+        "Cypress",
+        "CI/CD",
+      ],
+    },
+  ],
+  experience: [
+    {
+      position: "Full-Stack Developer Golang/ReactJS",
+      company: "NDA",
+      location: "Limassol, Cyprus",
+      period: "2024 - Present",
+      responsibilities: [
+        "Designing and developing high-load backend services in Golang with a focus on performance, reliability, and scalability",
+        "Building and maintaining RESTful APIs for web and mobile clients, including versioning, validation, and API documentation (OpenAPI/Swagger)",
+        "Designing, optimizing, and maintaining PostgreSQL schemas, indexes, and queries, working with transactions and data consistency",
+        "Implementing complex business logic, background jobs, and asynchronous processing using queues and workers",
+        "Working extensively with the Go ecosystem: Gin / Fiber, GORM / sqlx, context, goroutines, channels, and middleware",
+        "Designing service architecture: separation of concerns, modular structure, dependency injection, and clean architecture principles",
+        "Integrating third-party services and internal microservices with attention to security, error handling, and fault tolerance",
+        "Implementing authentication and authorization (JWT, OAuth-based flows), request validation, and rate limiting",
+        "Writing unit and integration tests for backend services; improving code quality via reviews and static analysis",
+        "Monitoring and debugging backend systems: structured logging, metrics, and performance profiling",
+        "Collaborating with frontend and mobile teams to define API contracts and ensure efficient data exchange",
+      ],
+    },
+    {
+      position: "Senior Frontend Developer",
+      company: "Mayflower",
+      location: "Limassol, Cyprus",
+      period: "2022 - 2024",
+      responsibilities: [
+        "Led development of an innovative AI-first text editor application from concept to production",
+        "Built comprehensive user dashboard and account management system with modern UX patterns",
+        "Collaborated closely with UI/UX designers and backend engineers on architecture design and API contracts",
+        "Developed key application components ensuring high performance and user experience",
+        "Owned entire frontend development strategy and defined technical roadmap",
+        "Implemented comprehensive testing strategies ensuring code quality and reliability",
+        "Worked in agile environment with frequent releases, A/B testing, and continuous product improvement",
+        "Established modern frontend architecture patterns and development best practices",
+      ],
+    },
+    {
+      position: "Middle Frontend Developer",
+      company: "Brabens Development",
+      location: "Moscow",
+      period: "2016 - 2022",
+      responsibilities: [
+        "Developed administrative panel and user dashboard for traffic exchange platform serving thousands of users",
+        "Implemented complex business logic on frontend ensuring data integrity and user experience",
+        "Actively participated in grooming sessions, sprint planning, and technical decision-making",
+        "Performed task decomposition, estimation, and coordinated with cross-functional teams",
+        "Collaborated effectively with Backend developers, QA engineers, and designers in agile environment",
+        "Championed introduction of new development tools (Cypress, Storybook) improving team productivity",
+        "Created pixel-perfect responsive layouts from Figma designs using SCSS and Styled Components",
+        "Wrote comprehensive unit and E2E tests achieving high code coverage",
+        "Led code refactoring initiatives to improve maintainability, performance, and scalability",
+      ],
+    },
+  ],
+  education: [
+    {
+      degree: "Bachelor's Degree in Computer Science",
+      institution: "Modern University for the Humanities (SGA), Moscow",
+      major: "Computer Science and Engineering",
+      period: "2008 - 2013",
+    },
+  ],
+  languages: [
+    { name: "Russian", level: "Native" },
+    { name: "English", level: "B1 (Intermediate)" },
+  ],
+  additionalInfo: [
+    "Open to relocation",
+    "Strong problem-solving and analytical skills",
+    "Experience with Agile/Scrum methodologies",
+    "Passionate about clean code and software architecture",
+    "Continuous learner, exploring new technologies",
+  ],
+};
