@@ -1,6 +1,70 @@
-# My CV
+# Aleksey Lovchikov - Senior Full-Stack Developer
 
-CV проект на React + TypeScript + Vite с использованием RetroUI компонентов.
+CV проект на React + TypeScript + Vite с использованием RetroUI компонентов в стиле NeoBrutalism.
+
+## О себе
+
+Passionate Full-Stack Developer с 8+ годами опыта в разработке масштабируемых веб-приложений. Беру полную ответственность за задачи и довожу их до завершения, даже сталкиваясь с новыми вызовами или сложными проблемами. Не боюсь трудностей и всегда провожу тщательное исследование для обеспечения качественных результатов. Моя экспертиза охватывает как frontend, так и backend разработку, дополненную знаниями в DevOps, базах данных и системной архитектуре.
+
+## Опыт работы
+
+### Senior Frontend Developer ReactJS/TypeScript
+**Apicworld ltd** | Limassol, Cyprus | 2024 - Present
+
+- Разработка и поддержка сложных ReactJS приложений на TypeScript
+- Проектирование масштабируемой frontend архитектуры с фокусом на переиспользование компонентов и оптимизацию производительности
+- Реализация state management решений (Redux, Context API) и оптимизация через code splitting и lazy loading
+- Написание unit и integration тестов (Jest, React Testing Library, Vitest)
+- Code review, менторинг junior разработчиков, участие в технических решениях
+
+### Senior Frontend Developer
+**Mayflower** | Limassol, Cyprus | 2022 - 2024
+
+- Руководство разработкой инновационного AI-first текстового редактора от концепции до продакшена
+- Построение комплексной системы управления пользователями и dashboard с современными UX паттернами
+- Определение frontend стратегии разработки и технического roadmap
+- Установление современных архитектурных паттернов и best practices
+
+### Middle Frontend Developer
+**Brabens Development** | Moscow | 2016 - 2022
+
+- Разработка административной панели и пользовательского dashboard для платформы обмена трафиком
+- Внедрение новых инструментов разработки (Cypress, Storybook) для повышения продуктивности команды
+- Создание pixel-perfect responsive layouts из Figma дизайнов
+- Рефакторинг кода для улучшения поддерживаемости, производительности и масштабируемости
+
+## Навыки
+
+### Frontend
+ReactJS, Redux, VueJS, AngularJS, NextJS, TypeScript, JavaScript, HTML5, CSS3, SCSS, React Native
+
+### Backend
+PHP, Laravel, NestJS, ExpressJS, Node.js, RESTful APIs, GraphQL, Golang, Gin, Fiber, GORM, sqlx
+
+### Databases
+MySQL, PostgreSQL, MongoDB
+
+### Tools & DevOps
+Git, Docker, Webpack, Vite, Rollup, Parcel, Storybook, Jest, React Testing Library, Vitest, Playwright, Puppeteer, Selenium, Appium, Postman, Insomnia, Swagger, OpenAPI, Cypress, CI/CD
+
+## Образование
+
+**Bachelor's Degree in Computer Science**  
+Modern University for the Humanities (SGA), Moscow  
+Computer Science and Engineering | 2008 - 2013
+
+## Языки
+
+- **Russian** - Native
+- **English** - B1 (Intermediate)
+
+## Контакты
+
+- **Email:** aleksey.lovchikov@gmail.com
+- **GitHub:** [github.com/alekseylovchikov](https://github.com/alekseylovchikov)
+- **Telegram:** @jwebbb
+
+---
 
 ## Разработка
 
@@ -17,7 +81,7 @@ npm run build
 
 ## GitHub Pages
 
-Проект автоматически собирается и публикуется на GitHub Pages при пуше в ветку `main` или `master`.
+Проект автоматически собирается и публикуется на GitHub Pages при пуше в ветку `main`.
 
 ### Настройка GitHub Pages
 
@@ -33,81 +97,21 @@ npm run build
 
 ---
 
-## Технологии
+## Технологии проекта
 
-- React 19
-- TypeScript
-- Vite
-- Tailwind CSS
-- RetroUI (NeoBrutalism UI компоненты)
-- Feature Sliced Design архитектура
+- **React 19** - UI библиотека
+- **TypeScript** - Типизированный JavaScript
+- **Vite** - Современный build tool
+- **Tailwind CSS** - Utility-first CSS framework
+- **RetroUI** - NeoBrutalism UI компоненты
+- **Feature Sliced Design** - Архитектурная методология
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Дополнительная информация
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Open to relocation
+- Strong problem-solving and analytical skills
+- Experience with Agile/Scrum methodologies
+- Passionate about clean code and software architecture
+- Continuous learner, exploring new technologies
