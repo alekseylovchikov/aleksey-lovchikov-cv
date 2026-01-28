@@ -2,14 +2,14 @@ import { type CVData } from "./types";
 
 export const cvData: CVData = {
   name: "ALEKSEY LOVCHIKOV",
-  title: "Senior Full-Stack Developer",
+  title: "Senior Frontend Developer",
   contacts: {
     email: "aleksey.lovchikov@gmail.com",
     github: "github.com/alekseylovchikov",
     telegram: "@jwebbb",
   },
   about:
-    "Passionate Full-Stack Developer with 8+ years of experience building scalable web applications. I take full responsibility for tasks and see them through to completion, even when facing new challenges or complex problems. I'm not afraid of difficulties and always conduct thorough research to ensure quality results. My expertise spans both frontend and backend development, complemented by knowledge in DevOps, databases, and system architecture, allowing me to understand and support the entire development lifecycle.",
+    "Passionate Senior Frontend Developer with 8+ years of experience building scalable web applications. I take full responsibility for tasks and see them through to completion, even when facing new challenges or complex problems. I'm not afraid of difficulties and always conduct thorough research to ensure quality results. My expertise focuses on frontend development with ReactJS, TypeScript, and modern web technologies, complemented by knowledge in backend integration, testing, and performance optimization, allowing me to deliver high-quality user experiences.",
   skills: [
     {
       title: "Frontend",
