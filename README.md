@@ -1,5 +1,7 @@
 # Aleksey Lovchikov - Senior Full-Stack Developer
 
+[aleksey-lovchikov-cv](https://alekseylovchikov.github.io/aleksey-lovchikov-cv/)
+
 ## О себе
 
 Passionate Full-Stack Developer с 8+ годами опыта в разработке масштабируемых веб-приложений. Беру полную ответственность за задачи и довожу их до завершения, даже сталкиваясь с новыми вызовами или сложными проблемами. Не боюсь трудностей и всегда провожу тщательное исследование для обеспечения качественных результатов. Моя экспертиза охватывает как frontend, так и backend разработку, дополненную знаниями в DevOps, базах данных и системной архитектуре.
@@ -68,5 +70,6 @@ Computer Science and Engineering | 2008 - 2013
 - **Email:** aleksey.lovchikov@gmail.com
 - **GitHub:** [github.com/alekseylovchikov](https://github.com/alekseylovchikov)
 - **Telegram:** @jwebbb
+- **CV:** [aleksey-lovchikov-cv](https://alekseylovchikov.github.io/aleksey-lovchikov-cv/)
 
 ---
