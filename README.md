@@ -9,6 +9,7 @@ Passionate Full-Stack Developer с 8+ годами опыта в разрабо�
 ## Опыт работы
 
 ### Senior Frontend Developer ReactJS/TypeScript
+
 **Apicworld ltd** | Limassol, Cyprus | 2024 - Present
 
 - Разработка и поддержка сложных ReactJS приложений на TypeScript
@@ -18,6 +19,7 @@ Passionate Full-Stack Developer с 8+ годами опыта в разрабо�
 - Code review, менторинг junior разработчиков, участие в технических решениях
 
 ### Senior Frontend Developer
+
 **Mayflower** | Limassol, Cyprus | 2022 - 2024
 
 - Руководство разработкой инновационного AI-first текстового редактора от концепции до продакшена
@@ -26,6 +28,7 @@ Passionate Full-Stack Developer с 8+ годами опыта в разрабо�
 - Установление современных архитектурных паттернов и best practices
 
 ### Middle Frontend Developer
+
 **Brabens Development** | Moscow | 2016 - 2022
 
 - Разработка административной панели и пользовательского dashboard для платформы обмена трафиком
@@ -36,15 +39,19 @@ Passionate Full-Stack Developer с 8+ годами опыта в разрабо�
 ## Навыки
 
 ### Frontend
+
 ReactJS, Redux, VueJS, AngularJS, NextJS, TypeScript, JavaScript, HTML5, CSS3, SCSS, React Native
 
 ### Backend
+
 PHP, Laravel, NestJS, ExpressJS, Node.js, RESTful APIs, GraphQL, Golang, Gin, Fiber, GORM, sqlx
 
 ### Databases
+
 MySQL, PostgreSQL, MongoDB
 
 ### Tools & DevOps
+
 Git, Docker, Webpack, Vite, Rollup, Parcel, Storybook, Jest, React Testing Library, Vitest, Playwright, Puppeteer, Selenium, Appium, Postman, Insomnia, Swagger, OpenAPI, Cypress, CI/CD
 
 ## Образование
@@ -65,53 +72,3 @@ Computer Science and Engineering | 2008 - 2013
 - **Telegram:** @jwebbb
 
 ---
-
-## Разработка
-
-```bash
-npm install
-npm run dev
-```
-
-## Сборка
-
-```bash
-npm run build
-```
-
-## GitHub Pages
-
-Проект автоматически собирается и публикуется на GitHub Pages при пуше в ветку `main`.
-
-### Настройка GitHub Pages
-
-1. Перейдите в Settings → Pages вашего репозитория
-2. В разделе "Source" выберите "GitHub Actions"
-3. Workflow автоматически определит правильный base path:
-   - Если репозиторий называется `username.github.io`, base path будет `/`
-   - Иначе base path будет `/repository-name/`
-
-### Ручной запуск деплоя
-
-Вы можете вручную запустить деплой через Actions → Build and Deploy to GitHub Pages → Run workflow.
-
----
-
-## Технологии проекта
-
-- **React 19** - UI библиотека
-- **TypeScript** - Типизированный JavaScript
-- **Vite** - Современный build tool
-- **Tailwind CSS** - Utility-first CSS framework
-- **RetroUI** - NeoBrutalism UI компоненты
-- **Feature Sliced Design** - Архитектурная методология
-
----
-
-## Дополнительная информация
-
-- Open to relocation
-- Strong problem-solving and analytical skills
-- Experience with Agile/Scrum methodologies
-- Passionate about clean code and software architecture
-- Continuous learner, exploring new technologies
