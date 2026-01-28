@@ -2,8 +2,6 @@
 
 [Live CV](https://alekseylovchikov.github.io/aleksey-lovchikov-cv/)
 
-CV project built with React + TypeScript + Vite using RetroUI components in NeoBrutalism style.
-
 ## About Me
 
 Passionate Senior Frontend Developer with 8+ years of experience building scalable web applications. I take full responsibility for tasks and see them through to completion, even when facing new challenges or complex problems. I'm not afraid of difficulties and always conduct thorough research to ensure quality results. My expertise focuses on frontend development with ReactJS, TypeScript, and modern web technologies, complemented by knowledge in backend integration, testing, and performance optimization, allowing me to deliver high-quality user experiences.
@@ -11,6 +9,7 @@ Passionate Senior Frontend Developer with 8+ years of experience building scalab
 ## Work Experience
 
 ### Senior Frontend Developer ReactJS/TypeScript
+
 **Apicworld ltd** | Limassol, Cyprus | 2024 - Present
 
 - Developing and maintaining complex ReactJS applications using TypeScript, ensuring type safety and code quality
@@ -23,6 +22,7 @@ Passionate Senior Frontend Developer with 8+ years of experience building scalab
 - Participating in technical decision-making, architecture discussions, and contributing to frontend development roadmap
 
 ### Senior Frontend Developer
+
 **Mayflower** | Limassol, Cyprus | 2022 - 2024
 
 - Led development of an innovative AI-first text editor application from concept to production
@@ -33,6 +33,7 @@ Passionate Senior Frontend Developer with 8+ years of experience building scalab
 - Worked in agile environment with frequent releases, A/B testing, and continuous product improvement
 
 ### Middle Frontend Developer
+
 **Brabens Development** | Moscow | 2016 - 2022
 
 - Developed administrative panel and user dashboard for traffic exchange platform serving thousands of users
@@ -46,15 +47,19 @@ Passionate Senior Frontend Developer with 8+ years of experience building scalab
 ## Skills
 
 ### Frontend
+
 ReactJS, Redux, VueJS, AngularJS, NextJS, TypeScript, JavaScript, HTML5, CSS3, SCSS, React Native
 
 ### Backend
+
 PHP, Laravel, NestJS, ExpressJS, Node.js, RESTful APIs, GraphQL, Golang, Gin, Fiber, GORM, sqlx
 
 ### Databases
+
 MySQL, PostgreSQL, MongoDB
 
 ### Tools & DevOps
+
 Git, Docker, Webpack, Vite, Rollup, Parcel, Storybook, Jest, React Testing Library, Vitest, Playwright, Puppeteer, Selenium, Appium, Postman, Insomnia, Swagger, OpenAPI, Cypress, CI/CD
 
 ## Education
@@ -74,55 +79,3 @@ Computer Science and Engineering | 2008 - 2013
 - **GitHub:** [github.com/alekseylovchikov](https://github.com/alekseylovchikov)
 - **Telegram:** @jwebbb
 - **CV:** [aleksey-lovchikov-cv](https://alekseylovchikov.github.io/aleksey-lovchikov-cv/)
-
----
-
-## Development
-
-```bash
-npm install
-npm run dev
-```
-
-## Build
-
-```bash
-npm run build
-```
-
-## GitHub Pages
-
-The project is automatically built and deployed to GitHub Pages when pushing to the `main` branch.
-
-### GitHub Pages Setup
-
-1. Go to Settings → Pages in your repository
-2. In the "Source" section, select "GitHub Actions"
-3. The workflow will automatically determine the correct base path:
-   - If the repository is named `username.github.io`, base path will be `/`
-   - Otherwise, base path will be `/repository-name/`
-
-### Manual Deployment
-
-You can manually trigger deployment via Actions → Build and Deploy to GitHub Pages → Run workflow.
-
----
-
-## Project Technologies
-
-- **React 19** - UI library
-- **TypeScript** - Typed JavaScript
-- **Vite** - Modern build tool
-- **Tailwind CSS** - Utility-first CSS framework
-- **RetroUI** - NeoBrutalism UI components
-- **Feature Sliced Design** - Architectural methodology
-
----
-
-## Additional Information
-
-- Open to relocation
-- Strong problem-solving and analytical skills
-- Experience with Agile/Scrum methodologies
-- Passionate about clean code and software architecture
-- Continuous learner, exploring new technologies
